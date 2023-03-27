@@ -41,7 +41,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Install npm packages
-        uses: chvmvd/npm-packages-install-action@v1
+        uses: chvmvd/npm-packages-install-action@v1.0.0
         with:
           path: "."
 ```
