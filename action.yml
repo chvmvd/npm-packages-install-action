@@ -18,11 +18,10 @@ runs:
 
     - name: Cache npm packages
       id: npm-cache
-      working-directory: ${{ inputs.path }}
       uses: actions/cache@v3
       with:
-        path: "node_modules"
-        key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+        path: "**/node_modules"
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
 
     - name: Install npm packages
       if: steps.npm-cache.outputs.cache-hit != 'true'
