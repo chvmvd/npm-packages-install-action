@@ -27,20 +27,20 @@ This action installs npm packages.
 You can use this action in your workflow by writing like this:
 
 ```yaml
-name: Install npm packages
+name: Install npm Packages
 
 on:
-  push:
+  pull_request:
 
 jobs:
   install:
-    name: Install npm packages
+    name: Install npm Packages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install npm packages
+      - name: Install npm Packages
         uses: chvmvd/npm-packages-install-action@v1.0.0
         with:
           path: "."
