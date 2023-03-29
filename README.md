@@ -1,5 +1,6 @@
 # npm Packages Install Action
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Release version badge](https://img.shields.io/github/v/release/chvmvd/npm-packages-install-action.svg?logo=github)](https://github.com/chvmvd/npm-packages-install-action/releases)
 [![license](https://img.shields.io/badge/license-MIT-informational.svg)](LICENSE)
 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
