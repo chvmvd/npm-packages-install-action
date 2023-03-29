@@ -1,0 +1,16 @@
+{
+  "name": "npm-packages-install-action",
+  "version": "1.0.0",
+  "description": "This action installs npm packages.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chvmvd/npm-packages-install-action.git"
+  },
+  "author": "WATAHIKI Yuto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chvmvd/npm-packages-install-action/issues"
+  },
+  "homepage": "https://github.com/chvmvd/npm-packages-install-action#readme"
+}
