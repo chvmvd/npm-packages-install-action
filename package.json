@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/chvmvd/npm-packages-install-action/issues"
   },
-  "homepage": "https://github.com/chvmvd/npm-packages-install-action#readme"
+  "homepage": "https://github.com/chvmvd/npm-packages-install-action#readme",
+  "devDependencies": {
+    "prettier": "2.8.7"
+  }
 }
