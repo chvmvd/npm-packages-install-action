@@ -2,7 +2,9 @@
   "name": "npm-packages-install-action",
   "version": "1.0.0",
   "description": "This action installs npm packages.",
-  "scripts": {},
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chvmvd/npm-packages-install-action.git"
