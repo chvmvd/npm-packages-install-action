@@ -1,0 +1,19 @@
+name: Prettier
+
+on:
+  pull_request:
+
+jobs:
+  prettier:
+    name: Run Prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install npm Packages
+        uses: chvmvd/npm-packages-install-action@v1.0.0
+
+      - name: Run Prettier
+        run: npm run format
+        shell: bash
